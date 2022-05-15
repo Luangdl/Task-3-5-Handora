@@ -192,6 +192,9 @@
                                             <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                             <color key="baseBackgroundColor" red="0.45098039215686275" green="0.69019607843137254" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="botaoReceberMaterial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VJx-fs-ccN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -235,6 +238,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HTg-Co-PZ5" secondAttribute="bottom" constant="547" id="wLH-sI-aM4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="areaDeAtuacao" destination="AwR-gj-w0T" id="IpB-fj-EdX"/>
+                        <outlet property="campoEmail" destination="Ops-Ww-lVg" id="WZI-iO-hdm"/>
+                        <outlet property="campoNome" destination="HE1-n1-Dnt" id="hJh-fu-Eff"/>
+                        <outlet property="statusProfissional" destination="tpv-cb-vIk" id="kvJ-TU-dww"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
