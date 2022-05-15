@@ -31,10 +31,10 @@ class RegisterViewController: UIViewController {
     
         Antes de enviarmos, por favor, revise seus dados:
 
-        Nome: \(String(describing: campoNome.text))
-        Email: \(String(describing: campoEmail.text))
-        Área de Atuação: \(String(describing: areaDeAtuacao.text))
-        Status Profissional: \(String(describing: statusProfissional.text))
+        Nome: \(String(describing: campoNome.text!))
+        Email: \(String(describing: campoEmail.text!))
+        Área de Atuação: \(String(describing: areaDeAtuacao.text!))
+        Status Profissional: \(String(describing: statusProfissional.text!))
 """, preferredStyle: .actionSheet)
         
         alert.addAction(UIAlertAction(title: "Confirmar", style: .default, handler: { action in
